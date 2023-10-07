@@ -75,12 +75,12 @@ export default function AddTodo() {
                 name="title"
                 value={data.title}
                 onChange={handleChange}
-                className="text-2xl p-1 rounded-lg flex-grow w-full"
+                className="text-2xl p-1 rounded-lg flex-grow w-full outline-none"
                 placeholder="New Todo"
                 autoFocus
             />
 
-            <button type="submit" className="p-2 text-xl rounded-2xl text-black border-solid border-black border-2 max-w-xs bg-green-500 hover:cursor-pointer hover:bg-green-400">
+            <button type="submit" className="p-2 text-xl rounded-2xl bg-[#e94822] text-black border-solid max-w-xs bg- hover:cursor-pointer hover:bg-[#e94822]">
                 Submit
             </button>
 
